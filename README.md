@@ -134,25 +134,25 @@ for %d in (C D E F G H I J) do @if exist %d:\NIS-Win11.wim echo IMAGES is %d:
 
 | # | File | Shows |
 |---|---|---|
-| 01 | `01-ref01-vm-settings.png` | REF01 VM configuration |
-| 02 | `02-ref01-setup-disk.png` | Windows Setup disk selection |
-| 03 | `03-ref01-audit-mode.png` | Audit mode desktop with the Sysprep window |
-| 04 | `04-ref01-guest-additions.png` | Guest Additions installed |
-| 05 | `05-ref01-customize-script.png` | Customization script and output |
-| 06 | `06-ref01-oem-support-info.png` | Northstar support info on REF01 |
-| 07 | `07-ref01-sysprep-options.png` | Sysprep: OOBE + Generalize + Shutdown |
-| 08 | `08-ref01-storage-images-disk.png` | REF01 storage: OS disk, IMAGES disk, ISO |
-| 09 | `09-ref01-winpe-diskpart-list.png` | DiskPart `list disk` / `list vol` |
-| 10 | `10-ref01-diskpart-format-images.png` | IMAGES volume formatted as I: |
-| 11 | `11-ref01-dism-capture-complete.png` | DISM capture completed |
-| 12 | `12-ref01-wim-imageinfo.png` | `dism /get-imageinfo` output |
-| 13 | `13-new01-storage.png` | NEW01 storage with IMAGES attached |
-| 14 | `14-new01-diskpart-partitions.png` | GPT partitions (S: and W:) |
-| 15 | `15-new01-dism-apply-complete.png` | DISM apply completed |
-| 16 | `16-new01-bcdboot.png` | Boot files created |
-| 17 | `17-new01-first-boot-oobe.png` | NEW01 first boot into OOBE |
-| 18 | `18-new01-oem-support-info.png` | Northstar support info carried over to NEW01 |
-| 19 | `19-new01-verify-image.png` | Hostname, ImageInfo.txt, IMAGE_STATE_COMPLETE |
+| 01 | [01-ref01-vm-settings.png](screenshots/01-ref01-vm-settings.png) | REF01 VM configuration |
+| 02 | [02-ref01-setup-disk.png](screenshots/02-ref01-setup-disk.png) | Windows Setup disk selection |
+| 03 | [03-ref01-audit-mode.png](screenshots/03-ref01-audit-mode.png) | Audit mode desktop with the Sysprep window |
+| 04 | [04-ref01-guest-additions.png](screenshots/04-ref01-guest-additions.png) | Guest Additions installed |
+| 05 | [05-ref01-customize-script.png](screenshots/05-ref01-customize-script.png) | Customization script and output |
+| 06 | [06-ref01-oem-support-info.png](screenshots/06-ref01-oem-support-info.png) | Northstar support info on REF01 |
+| 07 | [07-ref01-sysprep-options.png](screenshots/07-ref01-sysprep-options.png) | Sysprep: OOBE + Generalize + Shutdown |
+| 08 | [08-ref01-storage-images-disk.png](screenshots/08-ref01-storage-images-disk.png) | REF01 storage: OS disk, IMAGES disk, ISO |
+| 09 | [09-ref01-winpe-diskpart-list.png](screenshots/09-ref01-winpe-diskpart-list.png) | DiskPart `list disk` / `list vol` |
+| 10 | [10-ref01-diskpart-format-images.png](screenshots/10-ref01-diskpart-format-images.png) | IMAGES volume formatted as I: |
+| 11 | [11-ref01-dism-capture-complete.png](screenshots/11-ref01-dism-capture-complete.png) | DISM capture completed |
+| 12 | [12-ref01-wim-imageinfo.png](screenshots/12-ref01-wim-imageinfo.png) | `dism /get-imageinfo` output |
+| 13 | [13-new01-storage.png](screenshots/13-new01-storage.png) | NEW01 storage with IMAGES attached |
+| 14 | [14-new01-diskpart-partitions.png](screenshots/14-new01-diskpart-partitions.png) | GPT partitions (S: and W:) |
+| 15 | [15-new01-dism-apply-complete.png](screenshots/15-new01-dism-apply-complete.png) | DISM apply completed |
+| 16 | [16-new01-bcdboot.png](screenshots/16-new01-bcdboot.png) | Boot files created |
+| 17 | [17-new01-first-boot-oobe.png](screenshots/17-new01-first-boot-oobe.png) | NEW01 first boot into OOBE |
+| 18 | [18-new01-oem-support-info.png](screenshots/18-new01-oem-support-info.png) | Northstar support info carried over to NEW01 |
+| 19 | [19-new01-verify-image.png](screenshots/19-new01-verify-image.png) | Hostname, ImageInfo.txt, IMAGE_STATE_COMPLETE |
 
 No passwords appear in any screenshot.
 
